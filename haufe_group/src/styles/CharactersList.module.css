@@ -1,0 +1,33 @@
+.box {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.buttonBox {
+    margin-top: 30px;
+}
+
+.buttonLoad {
+    cursor: pointer;
+    color: #ffffff;
+    font-weight: 500;
+    width: 100%;
+    font-size: 16px;
+    padding: 10px;
+    border: none;
+    border-radius: 9px;
+    background-color: var(--primary-button-color);
+}
+
+.buttonLoad:hover {
+    background-color: var(--secondary-button-color);
+    transition: 0.4s;
+}

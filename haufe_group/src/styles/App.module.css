@@ -1,0 +1,28 @@
+body {
+    --primary-text-color: #37383c;
+    --secondary-text-color: #626266;
+    --primary-background-color: #f8f9fc;
+    --secondary-background-color: #f6f6f6;
+    --primary-button-color: #06c;
+    --secondary-button-color: #0053a6;
+    height: 100%;
+    background-color: var(--primary-background-color);
+}
+
+a {
+    color: var(--primary-button-color);
+    text-decoration: none;
+}
+
+img {
+    display: block;
+    height: 100%;
+    width: 100%;
+}
+
+.theme {
+    padding-top: 60px;
+    color: var(--primary-text-color);
+    font-family: Apercu Pro,Helvetica Neue,Helvetica,Tahoma,Geneva,Arial,sans-serif;
+    font-size: 24px;
+}

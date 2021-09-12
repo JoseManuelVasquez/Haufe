@@ -1,0 +1,77 @@
+.box {
+    background-color: #ffffff;
+    width: 30vw;
+    text-align: center;
+    line-height: 32px;
+    border-radius: 15px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    padding: 40px;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.title {
+    font-weight: 700;
+    font-size: 24px;
+}
+
+.userLabel {
+    font-weight: 500;
+    font-size: 14px;
+    color: var(--secondary-text-color);
+    text-align: left;
+}
+
+.userBox {
+    font-weight: 500;
+    font-size: 16px;
+    border-radius: 9px;
+    border:1px solid transparent;
+    background-color: var(--secondary-background-color);
+    color: var(--primary-text-color);
+    text-align: left;
+}
+
+.userBox:hover {
+    border-color: var(--primary-button-color);
+    transition: 0.4s;
+}
+
+.userInput {
+    height: 30px;
+    width: 95%;
+    background: rgba(0, 0, 0, 0);
+    border-radius: 9px;
+    border: none;
+    padding: 5px 10px 5px 10px;
+}
+
+.userSubmitBox {
+    margin-top: 30px;
+}
+
+.userSubmit {
+    cursor: pointer;
+    color: #ffffff;
+    font-weight: 500;
+    width: 100%;
+    font-size: 16px;
+    padding: 10px;
+    border: none;
+    border-radius: 9px;
+    background-color: var(--primary-button-color);
+}
+
+.userSubmit:hover {
+    background-color: var(--secondary-button-color);
+    transition: 0.4s;
+}
+
+.formFooter {
+    margin-top: 30px;
+    font-weight: 500;
+    font-size: 14px;
+    color: var(--secondary-text-color);
+}

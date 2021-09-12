@@ -1,0 +1,66 @@
+.box {
+    width: 600px;
+    height: 220px;
+    margin: 14px;
+    display: flex;
+    overflow: hidden;
+    background-color: var(--primary-background-color);
+    line-height: 16px;
+    border-radius: 15px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    animation: fadein 2s;
+}
+
+.characterImage {
+    width: 100%;
+    flex: 2 1;
+    cursor: pointer;
+    animation: fadein 2s;
+}
+
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+.characterImage:hover {
+    opacity: 0.6;
+    transition: 0.4s;
+}
+
+.characterContent {
+    display: flex;
+    flex-direction: column;
+    flex: 3 1;
+    padding: 14px;
+    position: relative;
+    text-align: left;
+}
+
+.headSection {
+    display: flex;
+    flex-direction: row;
+    flex: 1 1;
+}
+
+.section {
+    justify-content: flex-start;
+    flex: 1 1;
+    flex-direction: column;
+}
+
+.title {
+    font-weight: 900;
+}
+
+.characterLabel {
+    font-weight: 700;
+    font-size: 14px;
+    color: var(--secondary-text-color);
+}
+
+.characterInfo {
+    font-weight: 700;
+    font-size: 16px;
+    color: var(--primary-text-color);
+}

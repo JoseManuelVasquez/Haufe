@@ -1,0 +1,33 @@
+.box {
+    display:flex;
+    height: 30px;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 15px;
+}
+
+.favButton {
+    border: none;
+}
+
+.favButton::before {
+    cursor: pointer;
+    font-size: 34px;
+    color: var(--secondary-text-color);
+    content: '♥';
+    position: absolute;
+    transform: translate(-50%, -50%);
+}
+
+.added {
+    border: none;
+}
+
+.added::before {
+    cursor: pointer;
+    font-size: 34px;
+    color: var(--primary-button-color);
+    content: '♥';
+    position: absolute;
+    transform: translate(-50%, -50%);
+}
